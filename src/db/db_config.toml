@@ -1,0 +1,18 @@
+#db_config.toml
+url = "mysql://root:9899zhu.@localhost:3306/eeg"
+url2 = "123"
+
+
+
+# 嵌套在 [database]  需要改struct
+#[database]
+#url = "mysql://root:9899zhu.@localhost:3306/eeg"
+#[derive(Debug, Deserialize)]
+#pub struct DatabaseConfig {
+#    database: DatabaseSettings,
+#}
+#
+##[derive(Debug, Deserialize)]
+#pub struct DatabaseSettings {
+#    url: String,
+#}

@@ -1,0 +1,18 @@
+[package]
+name = "text_replace_tool"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1.5"
+xml-rs = "0.8"
+mysql = "*"
+serde = "1.0"
+serde_derive = "1.0"
+config = "0.11"
+dotenv = "0.15"
+
+[profile.dev]
+opt-level = 1
